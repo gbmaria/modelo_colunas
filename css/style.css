@@ -1,0 +1,75 @@
+/*
+Project Name: Cthulhu
+Author: Maria Clara
+*/
+
+
+
+/*----------------------------------------------------------------------------- 
+=01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+a {
+	color: pink;
+	text-decoration: none
+}
+
+.alignright {
+		float: left;
+		margin-left: 10px;
+}
+
+.alignright {
+		float: right;
+		margin: 0 0 10px 10px;
+}
+
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+
+#container {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+#header {
+	background: #f59c9c;
+	padding: 20px;
+}
+
+#main {
+	background: #ffffb1;
+	padding: 20px;
+	width: 700px;
+	float: left;
+}
+
+#sidebar {
+	background: #a7f29c;
+	padding: 20px;
+	width: 300px;
+	float: left;
+}
+
+#footer {
+	background: #a8d2f5;
+	padding: 20px
+}
+
+
+
+
+
